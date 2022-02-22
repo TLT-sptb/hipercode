@@ -10,16 +10,23 @@
 </head>
 
 <body>
+
+        
     
     <header id="header" data-scroll="scrll " class="header header1">
         <div class="header nu">
-            <p class="p1">
-                <span>
+            <p id="changeBack" class="p1">
+                <span id="ch">
                     <h1>HiperCode</h1>
                 </span>
             </p>
         </div>
         <div class="header head">
+
+            <div class="container">
+                <input type="checkbox" id="btn" name="btn">
+                <label for="btn"><img src="https://laboratoriodaalana.netlify.app/img/sun.png" alt=""></label>
+            </div>
 
             <ul class="header head">
                 <li class="about" style="text-decoration:underline;">
@@ -27,25 +34,45 @@
                         about
                     </a>
                 </li>
-                <li class="link">
+                <li class="link linkDrop">
                     <a href="#">
                         overview
                     </a>
+                    <ul class="dropdown">
+                        <li><a>Teste</a></li>
+                        <li><a>Teste</a></li>
+                        <li><a>Teste</a></li>
+                    </ul>
                 </li>
-                <li class="link">
+                <li class="link linkDrop">
                     <a href="#">
                         app
                     </a>
+                    <ul class="dropdown">
+                        <li><a>Teste</a></li>
+                        <li><a>Teste</a></li>
+                        <li><a>Teste</a></li>
+                    </ul>
                 </li>
-                <li class="link">
+                <li class="link linkDrop">
                     <a href="#">
                         team
                     </a>
+                    <ul class="dropdown">
+                        <li><a>Teste</a></li>
+                        <li><a>Teste</a></li>
+                        <li><a>Teste</a></li>
+                    </ul>
                 </li>
-                <li class="link">
+                <li class="link linkDrop">
                     <a href="#">
                         pricing
                     </a>
+                    <ul class="dropdown">
+                        <li><a>Teste</a></li>
+                        <li><a>Teste</a></li>
+                        <li><a>Teste</a></li>
+                    </ul>
                 </li>
                 <li>
                     <button>
@@ -63,7 +90,7 @@
             <h1 class="h1">
                 A Powerful App For Your Business.
             </h1>
-            <p>
+            <p class="p">
                 From open source to pro services, Piqes helps you
                 to build, deploy, test, and monitor apps.
             </p>
@@ -80,7 +107,7 @@
         </div>
 
         <section class="phone">
-            <img class="phone" src="https://preview.uideck.com/items/appvilla/assets/images/hero/phone.png">
+            <img class="phone" data-animation="center" src="https://preview.uideck.com/items/appvilla/assets/images/hero/phone.png">
         </section>
     </main>
     
@@ -194,7 +221,14 @@
         </div>
         </div>
     </section>
+    <div>
+        <input onchange="cor()" type="range" id="colorWeb">
+        
+    </div>
+   
     <script src="script.js"> </script>
+    <script src="test.js"></script>
+    
 </body>
 
 </html>

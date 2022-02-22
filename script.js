@@ -12,9 +12,10 @@ function animeScroll(){
         }
     })
 }
-window.addEventListener('scroll', function(){
-    animeScroll()
-})
+// window.addEventListener('scroll', function(){
+//     animeScroll()
+// })
+window.addEventListener('scroll', animeScroll);
 // Fim da Animação com Scroll
 
 
@@ -30,11 +31,12 @@ window.addEventListener('scroll', function(){
         })
     }
 const h = document.querySelector(".h1");
-
+// const p = document.querySelector(".p"); Usar se necessário
 typeW(h);
+// typeW(p);
+
+
 
 //Fim da animação Escrita
 
-
-//Cookies
 
