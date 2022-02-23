@@ -214,6 +214,7 @@ p{
     }
 }
 header{
+    transition: 1s;
     background-color: #ff6b81;
 }
 .header{
@@ -296,6 +297,7 @@ button:hover{
     background-color: #ff6b81;
     display: flex;
     color: whitesmoke;
+    transition: 1s;
     
     align-items: center;
     justify-content: space-evenly;
